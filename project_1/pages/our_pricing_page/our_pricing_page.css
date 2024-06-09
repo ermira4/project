@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+html {
+    background-color: #f7f7f8;
+    font-family: be vietnam pro;
+}
+
+.ourPricings {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.ourPricingsHeading {
+    font-size: 2.5em;
+    color: #1a1a1a;
+}
+
+.ourPricingsParagraph {
+    white-space: pre-line;
+    font-size: 1.1em;
+}
+
+.line {
+    border-bottom: 2px solid #F1F1F3;
+}
+
+.viewAllButton {
+    background-color: #fff;
+    text-align: center;
+    width: 210px;
+    margin: 50px auto;
+    border-radius: 8px;
+
+}
+
+.monthlyButton {
+    background-color: #ff9500;
+    margin: 10px 0 10px 10px;
+    color: #fff;
+}
+
+.yearlyButton {
+    margin-right: 10px;
+    color: #000;
+}
+
+.priceGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    background-color: #fff;
+    margin-right: 60px;
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.priceContainer {
+    background-color: #fcfcfd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #F1F1F3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.freePlan {
+    margin-left: 100px;
+}
+
+.proPlan {
+    margin-right: 100px;
+}
+
+.planText {
+    background-color: #FFEACC;
+    padding: 10px 150px;
+    border-radius: 8px;
+    border: 1px solid #f6d4a8;
+    font-size: 1.3em;
+}
+
+.priceText {
+    font-size: 3em;
+}
+
+.spanPrice {
+    font-weight: lighter;
+}
+
+.avalibeleFeaturesContainer {
+    background-color: #fff;
+    padding: 5px 35px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid #F1F1F3;
+}
+
+.availableFeaturesText {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.iconAndFeaturesType {
+    border: 1px solid #F1F1F3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.getStartedButton {
+    background-color: #ff9500;
+    width: 380px;
+    color: #fff;
+    margin-bottom: 30px;
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.gridQuestions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    background-color: #fff;
+   
+}
+
+.questionsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+   
+}
+
+.askContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.svgAndQuestions {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 5px 20px;
+    margin: 20px 0;
+}
+
+.border {
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+
+}
+
+.underLine {
+    border-bottom: 1px solid #F1F1F3;
+}
+
+.backgroundQuestions {
+    background-color: #F1F1F3;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.svgAndQuestionsPartTow {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 5 30px;
+    margin: 20px;
+}
+
+.itemHeading {
+    font-size: 1.7em;
+    white-space: pre-line;
+}
+
+.paragraph {
+    white-space: pre-line;
+    font-size: 1.1em;
+}
+
+@media (min-width: 300px) and (max-width: 550px) {
+    .gridQuestions {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 5px;
+    }
+    .priceGrid {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .paragraph {
+        font-size: 0.7em;
+    }
+
+    .priceContainer,
+    .avalibeleFeaturesContainer,
+    .askContainer {
+        font-size: 8px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .getStartedButton {
+        width: 320px;
+    }
+
+    .ourPricings {
+        flex-direction: column;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 750px) {
+    .priceGrid,
+    .gridQuestions {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .priceContainer,
+    .avalibeleFeaturesContainer,
+    .askContainer {
+        
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1025px) {
+    .priceGrid,
+    .gridQuestions {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .priceContainer,
+    .avalibeleFeaturesContainer,
+    .askContainer {
+        
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,594 @@
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+    background-color: #f7f7f8;
+}
+
+.subContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 24px 12px 12px;
+    height: 100px;
+    position: relative;
+    background-color: #fcfcfd;
+    border-radius: 8px;
+}
+
+.unlockText {
+    color: #ff9500 !important;
+}
+
+.headingUnlock {
+    font-size: 36px;
+    color: #1a1a1a;
+}
+
+.abstractLine {
+    position: absolute;
+    top: -27px;
+    left: -27px;
+}
+
+.textContainer {
+    height: 72px;
+    margin-top: 16px;
+}
+
+.secondHeading {
+    font-size: 28px;
+    color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.firstParagraph {
+    color: #262626;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.exploreCoursesAndPricingContainer {
+    padding: 24px 18px;
+    display: flex;
+    gap: 12px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.exploreCoursesButton {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+.exploreCoursesButton:hover {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+.viewPricingButton {
+    background-color: #fcfcfd;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+    gap: 30px;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fcfcfd;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.line {
+    border-right: 2px solid #F1F1F3;
+    height: 40px;
+}
+
+.imgIcon {
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.benefitsSection,
+.ourCourseSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.viewAllButton {
+    margin-bottom: 10px;
+    background-color: #fcfcfd;
+}
+
+.thirdHeading {
+    font-size: 2em;
+}
+
+.gridItem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfcfd;
+    border-radius: 10px;
+}
+
+.paragraph {
+    white-space: pre-line;
+    font-size: 1.1em;
+}
+
+.numberContainer,
+.arrowContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-bottom: 5px;
+}
+
+.numberHeading {
+    font-size: 3em;
+}
+
+.headingAndParagraghItem {
+    padding-left: 40px;
+}
+
+.itemHeading {
+    font-size: 1.7em;
+    white-space: pre-line;
+}
+
+.itemPargragh {
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+
+.gridCourses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 60px;
+    margin-left: 60px;
+    gap: 20px;
+
+}
+
+.coursesContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 40px 50px;
+    background-color: #fcfcfd;
+
+}
+
+.coursesLastsAndProfName {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.weeks,
+.level {
+    border: 1px solid #F1F1F3;
+    padding: 5px 10px;
+}
+
+.getItNowButton {
+    background-color: #F1F1F3;
+}
+
+.testimonialsContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfcfd;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.imgAndName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #F1F1F3;
+}
+
+.gridTestimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 60px;
+    margin-left: 60px;
+    column-gap: 20px;
+}
+
+.readFullStoryButton {
+    background-color: #F1F1F3;
+}
+
+.testimonialsParagraph {
+    padding: 20px 50px;
+}
+
+.imgName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.monthlyButton {
+    background-color: #ff9500;
+    margin: 10px;
+    color: #fff;
+}
+
+.priceGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    background-color: #fff;
+    margin-right: 60px;
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.priceContainer {
+    background-color: #fcfcfd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #F1F1F3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.freePlan {
+    margin-left: 100px;
+}
+
+.proPlan {
+    margin-right: 100px;
+}
+
+.planText {
+    background-color: #FFEACC;
+    padding: 10px 150px;
+    border-radius: 8px;
+    border: 1px solid #f6d4a8;
+    font-size: 1.3em;
+}
+
+.priceText {
+    font-size: 3em;
+}
+
+.spanPrice {
+    font-weight: lighter;
+}
+
+.avalibeleFeaturesContainer {
+    background-color: #fff;
+    padding: 5px 35px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid #F1F1F3;
+}
+
+.availableFeaturesText {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.iconAndFeaturesType {
+    border: 1px solid #F1F1F3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.getStartedButton {
+    background-color: #ff9500;
+    width: 380px;
+    color: #fff;
+    margin-bottom: 30px;
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.gridQuestions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    background-color: #fff;
+   
+}
+
+.questionsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+   
+}
+
+.askContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.svgAndQuestions {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 5px 20px;
+    margin: 20px 0;
+}
+
+.border {
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+
+}
+
+.underLine {
+    border-bottom: 1px solid #F1F1F3;
+}
+
+.backgroundQuestions {
+    background-color: #F1F1F3;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.svgAndQuestionsPartTow {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 5 30px;
+    margin: 20px;
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 550px) {
+       
+  
+
+    .headingUnlock {
+        font-size: 12px;
+    }
+
+    .secondHeading,
+    .firstParagraph {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .cardContainer {
+        gap: 5px;
+        margin: 0;
+    }
+
+    .img {
+        width: 320px;
+        height: 260px;
+        margin: 0;
+        padding: 0;
+        object-fit: cover;
+    }
+
+    .benefitsSection,
+    .ourCourseSection {
+        flex-direction: column;
+        margin: 0;
+        align-items: flex-start;
+    }
+
+    .gridItem,
+    .gridCourses,
+    .gridTestimonials,
+    .gridQuestions {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 5px;
+    }
+    .priceGrid {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .coursesContainer {
+        margin: 0;
+        padding: 0;
+    }
+
+    .headingAndParagraghItem {
+        padding-left: 0;
+    }
+
+    .imgAndName {
+        justify-content: space-evenly;
+    }
+
+    .coursesLastsAndProfName {
+        flex-direction: column;
+    }
+
+    .paragraph {
+        font-size: 0.7em;
+    }
+
+    .myButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .priceContainer,
+    .avalibeleFeaturesContainer,
+    .askContainer {
+        font-size: 8px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .getStartedButton {
+        width: 320px;
+    }
+    
+    .imgIcon {
+        margin: 5px;
+        
+    }
+}
+
+@media (min-width: 551px) and (max-width: 750px) {
+    .headingUnlock {
+        font-size: 22px;
+    }
+
+    .secondHeading,
+    .firstParagraph {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .cardContainer {
+        gap: 0px;
+        margin: 5px;
+    }
+
+    .img {
+        width: 550px;
+        height: 279px;
+    }
+
+    .imgIcon {
+        margin: 0;
+        padding: 0;
+    }
+
+    .benefitsSection,
+    .ourCourseSection {
+        flex-direction: column;
+        margin: 0;
+        align-items: flex-start;
+    }
+
+    
+    .gridCourses,
+    .gridTestimonials,
+    .priceGrid,
+    .gridQuestions {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .gridItem {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .priceContainer,
+    .avalibeleFeaturesContainer,
+    .askContainer {
+        
+        margin: 0;
+        padding: 0;
+    }
+   
+    .myButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    
+}
+
+@media (min-width: 751px) and (max-width: 1025px) {
+    .img {
+        width: 700px;
+        height: 279px;
+    }
+
+    .gridCourses,
+    .gridTestimonials,
+    .priceGrid,
+    .gridQuestions {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .gridItem {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .priceContainer,
+    .avalibeleFeaturesContainer,
+    .askContainer {
+        
+        margin: 0;
+        padding: 0;
+    }
+
+    .benefitsSection,
+    .ourCourseSection {
+        flex-direction: column;
+        margin: 0;
+        align-items: flex-start;
+    }
+
+    .imgAndName {
+        justify-content: space-evenly;
+    }
+
+    .cardContainer {
+        gap: 0px;
+        margin: 5px;
+    }
+
+}
+
+
+
+
+

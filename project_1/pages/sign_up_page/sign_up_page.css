@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+html {
+    background-color: #f7f7f8;
+    font-family: be vietnam pro;
+}
+
+.ourCourseSection {
+    display: flex;
+    margin-left: 60px;
+    flex-direction: column;
+    margin-top: 30px; 
+}
+
+.thirdHeading {
+    font-size: 2em;
+}
+
+.paragraph {
+    white-space: pre-line;
+    font-size: 1.1em;
+}
+
+.testimonialsParagraph {
+    padding: 20px 50px;
+}
+
+.imgAndName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #F1F1F3;
+}
+
+.imgName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.readFullStoryButton {
+    background-color: #F1F1F3;
+}
+
+.testimonialsContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfcfd;
+    border-radius: 10px;
+}
+
+.arrowLeftRight {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.flexTestimonials {
+    display: flex;
+    gap: 100px;
+    padding-top: 180px;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfcfd;
+    border-radius: 10px;  
+    padding: 20px 40px;
+}
+
+.loginText {
+    text-align: center;
+}
+
+.loginHeading {
+    font-size: 2em;
+}
+
+.loginInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+      
+}
+
+.loginInfoLabel>.loginInfoInput {
+   display: flex;
+    background-color: #f8f8fb;
+    border: 1px solid #F1F1F3;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 450px;
+}
+
+.loginInfoLabel {
+    margin-top: 20px;
+}
+
+.forgetPasswordContainer {
+    display: flex;
+    justify-content: flex-end;
+     
+}
+
+.remeberMeLabel {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   
+}
+
+input[type='checkbox'] {
+   width: 20px;
+   height: 20px;   
+}
+
+.loginButtonForm {
+    width: 450px;
+    background-color: #FF9500;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.line {
+   background-color:  #F1F1F3;
+    height: 2px;
+    width: 210px;  
+}
+
+.left {
+    margin-right: 5px;
+}
+.right {
+    margin-left: 5px;
+}
+
+.lineContainer {
+    display: flex;
+    align-items: center;
+    color: #F1F1F3;
+    justify-content: center;
+}
+
+.loginWithGoogleSignUpContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginWithGoogleButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #F1F1F3;
+    width: 450px;   
+}
+
+.singUpButtonForm {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .flexTestimonials {
+     flex-wrap: wrap;
+     flex-direction: column-reverse;
+    }
+ 
+    .loginInfoLabel>.loginInfoInput, .loginWithGoogleButton, .loginButtonForm {
+      width: 200px;
+    }
+ 
+    .line {
+       width: 100px;
+    }
+    .thirdHeading {
+     font-size: 1.2em;
+ }
+ 
+ .paragraph {
+     font-size: 0.8em;
+ }
+ 
+ .imgAndName{
+     justify-content: center;
+    padding: 0;
+ }
+ .imgName {
+     padding: 0;
+ }
+ 
+ .arrowLeftRight {
+     justify-content: center;
+ }
+ .ourCourseSection {
+     margin: 5px;
+ }
+ 
+ .loginInfoContainer {
+     justify-content: center;
+     padding-left: 0;
+     padding-right: 0;
+     margin: 0;
+ }
+
+ .remeberMeLabel{
+    display: flex;
+    flex-wrap: wrap;
+  }
+ }
+ 
+ @media (min-width: 501px) and (max-width: 1000px) {
+     .flexTestimonials {
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+ 
+ }
+ 

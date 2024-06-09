@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+html {
+    background-color: #f7f7f8;
+    font-family: be vietnam pro;
+}
+
+.onlineCourses {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    
+}
+
+.paragraph {
+    font-size: 1.1em;
+}
+.thirdHeading {
+    font-size: 2em;
+}
+
+.onlineCoursesHeading {
+    font-size: 2.5em;
+    color: #1a1a1a; 
+    white-space: pre-line;
+}
+
+.onlineCoursesParagraph {
+    white-space: pre-line;
+    font-size: 1.1em;  
+}
+
+.line {
+    border-bottom: 2px solid #F1F1F3;   
+}
+
+.coursesSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.viewCoursesButton {
+    margin-bottom: 10px;
+    background-color: #F1F1F3;
+    border: 1px solid #e9e9ea;
+    border-radius: 8px;
+}
+
+.picturesContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.buttonAndDesription {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  margin: 20px 70px 10px 70px;
+}
+
+.coursesLastsAndProfName {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.weeks,
+.level {
+    border: 1px solid #F1F1F3;
+    padding: 5px 10px;
+}
+
+.numberContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 50px;
+   
+}
+.numberHeading {
+    font-size: 2em;
+   
+}
+
+.itemPargragh {
+    font-size: 1.2em;
+    white-space: pre-line; 
+}
+
+.curriculumContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F1F1F3;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 8px;
+}
+
+.curriculumText {
+   padding-left: 20px;
+   padding-bottom: 15px;
+   border-bottom: 1px solid #F1F1F3;
+}
+
+.numberAndDescriptionContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.lineBetween {
+    height: 115px;
+    width: 1px;
+    background-color: #F1F1F3;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.anotherLineBetween {
+    height: 140px;
+}
+
+
+
+@media (min-width: 300px) and (max-width: 629px){
+    .coursePictures {
+        width: 50px;
+    }
+    .numberAndDescriptionContainer {
+        flex-direction: column;
+    }
+    .lineBetween {
+        width: 100px;
+        height: 1px;
+        margin: 0 auto;
+    }
+    .buttonAndDesription{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .onlineCourses {
+        flex-direction: column;
+        gap: 0;
+        margin: 20px;
+    }
+    .coursesLastsAndProfName {
+        flex-direction: column;
+        margin: 20px;
+    }
+    .weeks,
+.level {
+    padding: 0;
+}
+.paragraph, .thirdHeading, .onlineCoursesParagraph, .numberHeading, .itemPargragh {
+    font-size: 0.7em;
+}
+.onlineCoursesHeading {
+    font-size: 1.5em;
+}
+ .coursesSection {
+    margin: 20px;
+ }
+
+
+.curriculumContainer {
+    margin: 20px;
+}
+
+}
+
+@media (min-width: 630px) and (max-width: 899px) {
+    .coursePictures {
+        width: 150px;
+    }
+    .numberAndDescriptionContainer {
+        flex-direction: column;
+    }
+
+    .lineBetween {
+        width: 250px;
+        height: 1px;
+        margin: 0 auto;
+    }
+    .buttonAndDesription{
+        flex-direction: column;
+    }
+
+    .numberContainer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1360px){
+    .coursePictures {
+        width: 240px;
+    }
+    .numberAndDescriptionContainer {
+        flex-direction: column;
+    }
+
+    .lineBetween {
+        width: 400px;
+        height: 1px;
+        margin: 0 auto;
+    }
+    .buttonAndDesription{
+        flex-direction: column;
+    }
+
+    .numberContainer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

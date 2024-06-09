@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+html {
+    background-color: #f7f7f8;
+    font-family: be vietnam pro;
+}
+
+.onlineCourses {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.onlineCoursesHeading {
+    font-size: 2.5em;
+    color: #1a1a1a;
+    white-space: pre-line;
+}
+
+.onlineCoursesParagraph {
+    white-space: pre-line;
+    font-size: 1.1em;
+}
+
+.line {
+    border-bottom: 2px solid #F1F1F3;
+}
+
+.picturesContainer {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.gridOpenCoursesSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 60px;
+    gap: 30px;
+}
+
+.numberContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.numberAndHeadingContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.numberHeading {
+    font-size: 3em;
+    margin-right: 40px;
+}
+
+.itemHeadingCourses {
+    font-size: 1.7em;
+    white-space: pre-line;
+    margin-left: 40px;
+}
+
+.itemPargragh {
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+
+.textAndButtonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #F1F1F3;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.minutesButton {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #F7F7F8;
+    margin-right: 20px;
+}
+
+.aboutOpenCoursesContainer {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.headingAndPargraph {
+    margin-left: 20px;
+}
+
+.textAndButtonContainer:hover {
+    border-color: #FFD599;
+    box-shadow: #FFD599 0px 2px 8px 0px;
+}
+
+.minutesButton:hover {
+    background-color: #FFD599;
+}
+
+.saperateText {
+    white-space: pre-line;
+}
+
+@media (min-width: 300px) and (max-width: 550px) {
+    .containerImage {
+        width: 350px;
+        object-fit: cover;
+    }
+
+    .onlineCourses {
+        flex-direction: column;
+        gap: 0;
+        font-size: 8px;
+        margin: 0;
+    }
+
+    .gridOpenCoursesSection {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        
+    }
+
+    .picturesContainer {
+        margin: 0;
+    }
+
+    .textAndButtonContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+
+    .minutesButton {
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .itemHeadingCourses {
+        font-size: 1em;
+        
+    }
+
+    .itemPargragh {
+        font-size: 0.7em;
+    }
+
+    
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+    .containerImage {
+        width: 500px;
+        object-fit: cover;
+    }
+
+    .gridOpenCoursesSection {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .picturesContainer {
+        margin: 0;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 900px) {
+    .containerImage {
+        width: 700px;
+        object-fit: cover;
+    }
+
+    .gridOpenCoursesSection {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+    .picturesContainer {
+        margin: 0;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    .containerImage {
+        width: 800px;
+        object-fit: cover;
+    }
+
+    .gridOpenCoursesSection {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+    .containerImage {
+        width: 900px;
+        object-fit: cover;
+    } 
+}

@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+html {
+    background-color: #f7f7f8;
+    font-family: be vietnam pro;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f7f7f8;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+}
+
+
+.topBanner {
+    background-color: #ff9500;
+    height: 41px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    border-radius: 8px;
+
+}
+
+nav {
+    height: 81px;
+    display: flex;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F3;
+
+
+}
+
+.iconAndButtonsContainer {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.buttonsContainer>ul {
+    display: flex;
+    list-style: none;
+    gap: 26px;
+
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    color: #262626;
+}
+
+.navButton:hover {
+    background-color: #F1F1F3;
+}
+
+.loginButton {
+    background-color: #ff9500;
+    padding: 12px 24px;
+    color: #fff;
+}
+
+.sidebar {
+    position: fixed;
+    top: 120px;
+    right: 0;
+    height: 30vh;
+    width: 256px;
+    z-index: 999;
+    background-color: rgba(255, 145, 0, 0.121);
+    display: none;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sideBarItem {
+    padding: 2px 100px 2px 20px;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(255, 145, 0, 0.371);  
+}
+
+.sideBarItem:hover {
+    width: 80vw;
+    background-color: rgba(255, 145, 0, 0.277);
+  
+}
+
+.sidebar>ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.hideIcon {
+    display: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(255, 145, 0, 0.277);
+}
+.hideIcon:hover {
+    background-color: rgba(255, 145, 0, 0.348);
+}
+
+.menu-button{
+     display: none;
+     background-color: rgba(255, 145, 0, 0.037);
+     cursor: pointer;
+}
+
+@media(min-width: 980px) and (max-width: 1240px){
+
+    nav {
+        padding: 0;
+        margin: 0;
+        font-size: 8px;
+        gap: 0;
+    }
+    .iconAndButtonsContainer, .buttonsContainer>ul {
+        gap: 5px;
+    }
+    .hideIcon {
+        display: block;
+    }
+   
+}
+
+@media(min-width: 300px) and (max-width: 981px) {
+    .sidebar {
+        width: 100%;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+    
+    .responsiveButton {
+        display: flex;
+    }
+    .iconAndButtonsContainer, .buttonsContainer>ul  {
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navButton {
+         padding: 17px 2px;
+        margin-right: 2px; 
+    }
+    .topBanner {
+        gap: 2px;
+    }
+    .responsiveTopBannerText {
+        font-size: 0.8em;
+    }
+  
+
+   nav {
+    margin: 0;
+    padding: 0;
+   }
+   .hideIcon {
+    display: block;
+}
+
+.loginButton {
+   padding: 17px 2px;
+   margin-right: 5px; 
+}
+}

@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+html {
+    background-color: #f7f7f8;
+    font-family: be vietnam pro;
+}
+
+.contactUs {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.contactUsHeading {
+    font-size: 2.5em;
+    color: #1a1a1a;
+}
+
+.contactUsParagraph {
+    white-space: pre-line;
+    font-size: 1.1em;
+}
+
+.line {
+    border-bottom: 2px solid #F1F1F3;   
+}
+
+.contactSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: #fcfcfd;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+.formElements {
+    display: flex;
+    flex-direction: column;  
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.labelAndName {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+
+.label>.input {
+    display: flex; 
+    background-color: #f8f8fb;
+    border: 1px solid #F1F1F3;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 350px;
+}
+
+.formContainer {
+    margin-left: 60px;
+    width: 1000px;
+   
+    }
+
+.labelSubject>.inputSubject {
+    display: flex; 
+    background-color: #f8f8fb;
+    border: 1px solid #F1F1F3;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 750px;
+}
+
+.sendYourMessageButton {
+    margin: 30px auto;
+    width: 175px;
+}
+
+.sendmsgButton {
+    background-color: #FF9500;
+    color: #fff;
+}
+
+.rightLine {
+    background-color: #f8f8fb;
+    width: 2px;
+    height: 722px;
+    
+}
+
+.buttonColor {
+    background-color: #f8f8fb;
+    padding: 10px 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.paddingButton {
+    padding: 10px 62px;
+}
+
+@media (min-width: 300px) and (max-width: 550px) {
+    .contactUs {
+        flex-direction: column;
+        font-size: 6px;
+        gap: 0;
+       
+        
+    }
+
+    .contactSection {
+        flex-direction: column;
+        font-size: 6px;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .buttonContainer {
+        width: 200px;
+        padding: 0;
+        margin: 0;
+       align-items: flex-start;
+    }
+
+    .labelAndName {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+      
+    }
+
+    .label>.input, .formContainer, .labelSubject>.inputSubject{
+        width: 200px; 
+      
+        
+    }
+
+    .rightLine {
+        height: 2px;
+        width: 200px;
+    }
+
+    .responsiveButton {
+        display: flex;
+        align-items: flex-start;
+        padding: 0;
+        width: 210px;
+    }
+
+    .paddingButton, .buttonColor {
+        padding: 0;
+        margin-left: 50px;
+       
+    } 
+}
+
+@media (min-width: 551px) and (max-width: 800px) {
+    .contactUs {
+        flex-direction: column;
+        font-size: 6px;
+        gap: 0;
+       
+    }
+
+    .contactSection {
+        flex-direction: column;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .buttonContainer {
+        width: 300px;
+     margin-left: 100px;
+      
+    }
+
+    .labelAndName {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+
+    .label>.input, .formContainer, .labelSubject>.inputSubject{
+        width: 400px;     
+    }
+
+    
+    .rightLine {
+        height: 2px;
+        width: 400px;
+    }
+
+    .responsiveButton {
+        display: flex; 
+        width: 400px;  
+    }
+
+    .paddingButton, .buttonColor {
+       padding: 0;
+       
+    } 
+}
+
+@media (min-width: 801px) and (max-width: 1240px) {
+    .contactSection {
+        flex-wrap: wrap;
+    }
+
+    .label>.input, .formContainer, .labelSubject>.inputSubject{
+        width: 600px;     
+    }
+
+    .labelAndName {
+        flex-direction: column;   
+    }
+
+    .responsiveButton {
+        width: 400px;
+       
+    }
+
+    .buttonContainer {
+        margin-left: 100px;
+    }
+
+    .paddingButton, .buttonColor {
+        padding: 0;
+     } 
+}
